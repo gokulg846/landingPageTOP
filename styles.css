@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 15, 74);
+    color: white;
+}
+header > h3, h2, p, button{
+    margin-left: 150px;
+}
+header > .right{
+    display: flex;
+}
+h6{
+    margin-right: 15px;
+    
+}
+.main{
+    background-color: rgb(15, 15, 74);
+    color: white;
+    display: flex;
+}
+.main-image{
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    background-color: grey;
+    font-size: 15px;
+}
+button{
+    color: white;
+    background-color: blue;
+    text-align: center;
+}
+.quote{
+    background-color: rgb(205, 205, 205);
+}
